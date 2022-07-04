@@ -1,0 +1,20 @@
+
+
+.js-form {
+	width: 400px;
+	margin: 50px auto;
+}
+
+ul {
+	width: 400px;
+	margin: -30px auto;
+}
+
+li {
+	display: flex;
+	align-items: center;
+}
+
+span {
+	margin: 5px 20px;
+}
