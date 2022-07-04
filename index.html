@@ -8,18 +8,21 @@
 	<link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-	<form class="js-form" method="post" autocomplete="off ">
-		<input class="js-input" type="text" placeholder="Todos..." aria-label="write something">
-		<button type="submit">Send</button>
-	</form>
-
-	<ul class="js-list">
-
-	</ul>
-
-	<button type="button">All  <span class="js-all">0</span></button>
-	<button type="button">Completed  <span class="js-comp">0</span></button>
-	<button type="button">Uncompleted  <span class="js-uncomp">0</span></button>
+	<div class="javascript">
+		<div class="right">
+			<form class="js-form" method="post" autocomplete="off ">
+				<input class="js-input" type="text" placeholder="Todos..." aria-label="write something">
+				<button class="btn" type="submit">Send</button>
+			</form>
+			<ul class="js-list">
+			</ul>
+		</div>
+		<div class="buttons">
+			<button type="button">All  <span class="js-all">0</span></button>
+			<button type="button">Completed  <span class="js-comp">0</span></button>
+			<button type="button">Uncompleted  <span class="js-uncomp">0</span></button>
+		</div>
+	</div>
 	<script src="./js/main.js"></script>
 </body>
 </html>
